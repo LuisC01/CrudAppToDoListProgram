@@ -1,10 +1,6 @@
 # CrudAppToDoListProgram
 Implementing a crud for a ToDo list app with API and react node.js.
 
-## DEMO
-Link Demo, If you want to see the demo of this proyect deployed, you can visit: 
-
-
 ## How to clone and install
 download the project file
 Open the C# project file called AppToDoListAPI,
@@ -12,9 +8,9 @@ Change the URL to your PC's in appsettings.json,
 Open the package management console,
 Add command: add migration task list,
 After adding the command: update-database,
-use the credentials
-User: user1234@gmail.com,
-password: hello1234'
+use the credentials add the next query:
+insert into T_USUARIOS(Email,password) values
+('user1234@gmail.com', 'hello1234');
 If everything is ready, run the API with dotnet, run in VSC
 Run program in React,
 go to the terminal,
